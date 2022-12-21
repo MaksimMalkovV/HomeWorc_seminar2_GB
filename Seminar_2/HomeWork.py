@@ -46,18 +46,18 @@ clear()
 # Найдите произведение элементов на указанных позициях.
 # Позиции хранятся в файле file.txt в одной строке одно число.
 
-# def list(n):
-#     list = []
-#     for i in range(n):
-#         list.append(random.randint(-n,n))
-#     return list
-# n = int(input())
-# nums = list(n)
-# print(nums)
-# file = r'C:\Users\Data\Desktop\Попытка поумнеть\pyhton\Seminar_2\File.txt'
-# x = open(file,"r")
-# result = nums[int(x.readline())]*nums[int(x.readline(2))]
-# print(result)
+def list(n):
+    list = []
+    for i in range(n):
+        list.append(random.randint(-n,n))
+    return list
+n = int(input())
+nums = list(n)
+print(nums)
+file = r'C:\Users\Data\Desktop\Попытка поумнеть\Phyton\Seminar_2\File.txt'
+x = open(file,"r")
+result = nums[int(x.readline())]*nums[int(x.readline(2))]
+print(result)
 
 # Реализуйте алгоритм перемешивания списка.
 
